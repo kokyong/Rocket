@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>959395003812-6sucddnp3n29f8oauqtj56msqa0jstsi.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.959395003812-6sucddnp3n29f8oauqtj56msqa0jstsi</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDqaG28OKoFy-fotMmLTnYaLVNZ4QgpjFA</string>
+	<key>GCM_SENDER_ID</key>
+	<string>959395003812</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.KY.Rocket</string>
+	<key>PROJECT_ID</key>
+	<string>rocket-2aaa0</string>
+	<key>STORAGE_BUCKET</key>
+	<string>rocket-2aaa0.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:959395003812:ios:d87ca85fe10956dc</string>
+	<key>DATABASE_URL</key>
+	<string>https://rocket-2aaa0.firebaseio.com</string>
+</dict>
+</plist>

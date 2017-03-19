@@ -1,0 +1,713 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		942D21DA1E7E5F8C001C0265 /* ChallengeFriendCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942D21D81E7E5F8C001C0265 /* ChallengeFriendCollectionViewCell.swift */; };
+		942D21DB1E7E5F8C001C0265 /* ChallengeFriendCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 942D21D91E7E5F8C001C0265 /* ChallengeFriendCollectionViewCell.xib */; };
+		942D21DF1E7E6246001C0265 /* ChallengeFriendViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942D21DE1E7E6246001C0265 /* ChallengeFriendViewControllerExtension.swift */; };
+		942D21E21E7EA1B0001C0265 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942D21E11E7EA1B0001C0265 /* DetailViewController.swift */; };
+		942D21E41E7EA227001C0265 /* HealthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942D21E31E7EA227001C0265 /* HealthManager.swift */; };
+		942D21E61E7EC8B0001C0265 /* Swift+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942D21E51E7EC8B0001C0265 /* Swift+Gif.swift */; };
+		942D21E81E7EC91B001C0265 /* counting.gif in Resources */ = {isa = PBXBuildFile; fileRef = 942D21E71E7EC91B001C0265 /* counting.gif */; };
+		94DE20691E7B9A59005C5C2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DE20681E7B9A59005C5C2D /* AppDelegate.swift */; };
+		94DE206B1E7B9A59005C5C2D /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DE206A1E7B9A59005C5C2D /* LogInViewController.swift */; };
+		94DE206E1E7B9A59005C5C2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94DE206C1E7B9A59005C5C2D /* Main.storyboard */; };
+		94DE20711E7B9A59005C5C2D /* Rocket.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 94DE206F1E7B9A59005C5C2D /* Rocket.xcdatamodeld */; };
+		94DE20731E7B9A59005C5C2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94DE20721E7B9A59005C5C2D /* Assets.xcassets */; };
+		94DE20761E7B9A59005C5C2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94DE20741E7B9A59005C5C2D /* LaunchScreen.storyboard */; };
+		94DE207E1E7B9DFE005C5C2D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 94DE207D1E7B9DFE005C5C2D /* GoogleService-Info.plist */; };
+		94DE20831E7BA061005C5C2D /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DE20821E7BA061005C5C2D /* SignUpViewController.swift */; };
+		94DE209C1E7BA20D005C5C2D /* IQNSArray+Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DE20861E7BA20D005C5C2D /* IQNSArray+Sort.swift */; };
+		94DE209D1E7BA20D005C5C2D /* IQUIScrollView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DE20871E7BA20D005C5C2D /* IQUIScrollView+Additions.swift */; };
+		94DE209E1E7BA20D005C5C2D /* IQUITextFieldView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DE20881E7BA20D005C5C2D /* IQUITextFieldView+Additions.swift */; };
+		94DE209F1E7BA20D005C5C2D /* IQUIView+Hierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DE20891E7BA20D005C5C2D /* IQUIView+Hierarchy.swift */; };
+		94DE20A01E7BA20D005C5C2D /* IQUIViewController+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DE208A1E7BA20D005C5C2D /* IQUIViewController+Additions.swift */; };
+		94DE20A11E7BA20D005C5C2D /* IQUIWindow+Hierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DE208B1E7BA20D005C5C2D /* IQUIWindow+Hierarchy.swift */; };
+		94DE20A21E7BA20D005C5C2D /* IQKeyboardManagerConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DE208D1E7BA20D005C5C2D /* IQKeyboardManagerConstants.swift */; };
+		94DE20A31E7BA20D005C5C2D /* IQKeyboardManagerConstantsInternal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DE208E1E7BA20D005C5C2D /* IQKeyboardManagerConstantsInternal.swift */; };
+		94DE20A41E7BA20D005C5C2D /* IQKeyboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DE208F1E7BA20D005C5C2D /* IQKeyboardManager.swift */; };
+		94DE20A51E7BA20D005C5C2D /* IQKeyboardReturnKeyHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DE20911E7BA20D005C5C2D /* IQKeyboardReturnKeyHandler.swift */; };
+		94DE20A61E7BA20D005C5C2D /* IQTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DE20931E7BA20D005C5C2D /* IQTextView.swift */; };
+		94DE20A71E7BA20D005C5C2D /* IQBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DE20951E7BA20D005C5C2D /* IQBarButtonItem.swift */; };
+		94DE20A81E7BA20D005C5C2D /* IQPreviousNextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DE20961E7BA20D005C5C2D /* IQPreviousNextView.swift */; };
+		94DE20A91E7BA20D005C5C2D /* IQTitleBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DE20971E7BA20D005C5C2D /* IQTitleBarButtonItem.swift */; };
+		94DE20AA1E7BA20D005C5C2D /* IQToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DE20981E7BA20D005C5C2D /* IQToolbar.swift */; };
+		94DE20AB1E7BA20D005C5C2D /* IQUIView+IQKeyboardToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DE20991E7BA20D005C5C2D /* IQUIView+IQKeyboardToolbar.swift */; };
+		94DE20AC1E7BA20D005C5C2D /* IQKeyboardManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 94DE209B1E7BA20D005C5C2D /* IQKeyboardManager.bundle */; };
+		94DE20AF1E7BA392005C5C2D /* UserDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DE20AE1E7BA392005C5C2D /* UserDetail.swift */; };
+		94DE20B11E7BA979005C5C2D /* SignUpViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DE20B01E7BA979005C5C2D /* SignUpViewControllerExtension.swift */; };
+		94DE20B61E7BD579005C5C2D /* TodayHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DE20B51E7BD579005C5C2D /* TodayHistoryViewController.swift */; };
+		94DE20BC1E7BDD63005C5C2D /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DE20BA1E7BDD63005C5C2D /* HistoryViewController.swift */; };
+		94DE20BD1E7BDD63005C5C2D /* HistoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94DE20BB1E7BDD63005C5C2D /* HistoryViewController.xib */; };
+		94DE20C01E7BDD7B005C5C2D /* ChallengeFriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DE20BE1E7BDD7B005C5C2D /* ChallengeFriendViewController.swift */; };
+		94DE20C41E7BDD8F005C5C2D /* InviteFriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DE20C21E7BDD8F005C5C2D /* InviteFriendViewController.swift */; };
+		94DE20C81E7BF9BA005C5C2D /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DE20C71E7BF9BA005C5C2D /* ProfileViewController.swift */; };
+		94DE20CB1E7C06D5005C5C2D /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94DE20CA1E7C06D5005C5C2D /* HealthKit.framework */; };
+		94DE20CD1E7C19C9005C5C2D /* HealthData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DE20CC1E7C19C9005C5C2D /* HealthData.swift */; };
+		94DE20D11E7D5B94005C5C2D /* InviteFriendViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DE20D01E7D5B94005C5C2D /* InviteFriendViewControllerExtension.swift */; };
+		94DE20D81E7D6306005C5C2D /* InviteFriendTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DE20D61E7D6306005C5C2D /* InviteFriendTableViewCell.swift */; };
+		94DE20D91E7D6306005C5C2D /* InviteFriendTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94DE20D71E7D6306005C5C2D /* InviteFriendTableViewCell.xib */; };
+		B70D7345CAA291F9E8A5875D /* Pods_Rocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55F09F71F71704E6CE80AA0B /* Pods_Rocket.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		55F09F71F71704E6CE80AA0B /* Pods_Rocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		942D21D81E7E5F8C001C0265 /* ChallengeFriendCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChallengeFriendCollectionViewCell.swift; sourceTree = "<group>"; };
+		942D21D91E7E5F8C001C0265 /* ChallengeFriendCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChallengeFriendCollectionViewCell.xib; sourceTree = "<group>"; };
+		942D21DE1E7E6246001C0265 /* ChallengeFriendViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChallengeFriendViewControllerExtension.swift; sourceTree = "<group>"; };
+		942D21E11E7EA1B0001C0265 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		942D21E31E7EA227001C0265 /* HealthManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthManager.swift; sourceTree = "<group>"; };
+		942D21E51E7EC8B0001C0265 /* Swift+Gif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Swift+Gif.swift"; sourceTree = "<group>"; };
+		942D21E71E7EC91B001C0265 /* counting.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = counting.gif; sourceTree = "<group>"; };
+		94DE20651E7B9A59005C5C2D /* Rocket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rocket.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		94DE20681E7B9A59005C5C2D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		94DE206A1E7B9A59005C5C2D /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		94DE206D1E7B9A59005C5C2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		94DE20701E7B9A59005C5C2D /* Rocket.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Rocket.xcdatamodel; sourceTree = "<group>"; };
+		94DE20721E7B9A59005C5C2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		94DE20751E7B9A59005C5C2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		94DE20771E7B9A59005C5C2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94DE207D1E7B9DFE005C5C2D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		94DE20821E7BA061005C5C2D /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		94DE20861E7BA20D005C5C2D /* IQNSArray+Sort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQNSArray+Sort.swift"; sourceTree = "<group>"; };
+		94DE20871E7BA20D005C5C2D /* IQUIScrollView+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIScrollView+Additions.swift"; sourceTree = "<group>"; };
+		94DE20881E7BA20D005C5C2D /* IQUITextFieldView+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUITextFieldView+Additions.swift"; sourceTree = "<group>"; };
+		94DE20891E7BA20D005C5C2D /* IQUIView+Hierarchy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIView+Hierarchy.swift"; sourceTree = "<group>"; };
+		94DE208A1E7BA20D005C5C2D /* IQUIViewController+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIViewController+Additions.swift"; sourceTree = "<group>"; };
+		94DE208B1E7BA20D005C5C2D /* IQUIWindow+Hierarchy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIWindow+Hierarchy.swift"; sourceTree = "<group>"; };
+		94DE208D1E7BA20D005C5C2D /* IQKeyboardManagerConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardManagerConstants.swift; sourceTree = "<group>"; };
+		94DE208E1E7BA20D005C5C2D /* IQKeyboardManagerConstantsInternal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardManagerConstantsInternal.swift; sourceTree = "<group>"; };
+		94DE208F1E7BA20D005C5C2D /* IQKeyboardManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardManager.swift; sourceTree = "<group>"; };
+		94DE20901E7BA20D005C5C2D /* IQKeyboardManagerSwift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManagerSwift.h; sourceTree = "<group>"; };
+		94DE20911E7BA20D005C5C2D /* IQKeyboardReturnKeyHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardReturnKeyHandler.swift; sourceTree = "<group>"; };
+		94DE20931E7BA20D005C5C2D /* IQTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQTextView.swift; sourceTree = "<group>"; };
+		94DE20951E7BA20D005C5C2D /* IQBarButtonItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQBarButtonItem.swift; sourceTree = "<group>"; };
+		94DE20961E7BA20D005C5C2D /* IQPreviousNextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQPreviousNextView.swift; sourceTree = "<group>"; };
+		94DE20971E7BA20D005C5C2D /* IQTitleBarButtonItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQTitleBarButtonItem.swift; sourceTree = "<group>"; };
+		94DE20981E7BA20D005C5C2D /* IQToolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQToolbar.swift; sourceTree = "<group>"; };
+		94DE20991E7BA20D005C5C2D /* IQUIView+IQKeyboardToolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIView+IQKeyboardToolbar.swift"; sourceTree = "<group>"; };
+		94DE209B1E7BA20D005C5C2D /* IQKeyboardManager.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = IQKeyboardManager.bundle; sourceTree = "<group>"; };
+		94DE20AE1E7BA392005C5C2D /* UserDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDetail.swift; sourceTree = "<group>"; };
+		94DE20B01E7BA979005C5C2D /* SignUpViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewControllerExtension.swift; sourceTree = "<group>"; };
+		94DE20B51E7BD579005C5C2D /* TodayHistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodayHistoryViewController.swift; sourceTree = "<group>"; };
+		94DE20BA1E7BDD63005C5C2D /* HistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		94DE20BB1E7BDD63005C5C2D /* HistoryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HistoryViewController.xib; sourceTree = "<group>"; };
+		94DE20BE1E7BDD7B005C5C2D /* ChallengeFriendViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChallengeFriendViewController.swift; sourceTree = "<group>"; };
+		94DE20C21E7BDD8F005C5C2D /* InviteFriendViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InviteFriendViewController.swift; sourceTree = "<group>"; };
+		94DE20C71E7BF9BA005C5C2D /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		94DE20C91E7C06D5005C5C2D /* Rocket.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Rocket.entitlements; sourceTree = "<group>"; };
+		94DE20CA1E7C06D5005C5C2D /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		94DE20CC1E7C19C9005C5C2D /* HealthData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthData.swift; sourceTree = "<group>"; };
+		94DE20D01E7D5B94005C5C2D /* InviteFriendViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InviteFriendViewControllerExtension.swift; sourceTree = "<group>"; };
+		94DE20D61E7D6306005C5C2D /* InviteFriendTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InviteFriendTableViewCell.swift; sourceTree = "<group>"; };
+		94DE20D71E7D6306005C5C2D /* InviteFriendTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InviteFriendTableViewCell.xib; sourceTree = "<group>"; };
+		A8902A9F092C4A41BD1DABBF /* Pods-Rocket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rocket.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rocket/Pods-Rocket.release.xcconfig"; sourceTree = "<group>"; };
+		EAF66A8D9E2191296D8B2B7F /* Pods-Rocket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rocket.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Rocket/Pods-Rocket.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94DE20621E7B9A59005C5C2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B70D7345CAA291F9E8A5875D /* Pods_Rocket.framework in Frameworks */,
+				94DE20CB1E7C06D5005C5C2D /* HealthKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CA47DE63CBE9EBBB0FABE73 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EAF66A8D9E2191296D8B2B7F /* Pods-Rocket.debug.xcconfig */,
+				A8902A9F092C4A41BD1DABBF /* Pods-Rocket.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		942D21E01E7EA190001C0265 /* detail */ = {
+			isa = PBXGroup;
+			children = (
+				942D21E11E7EA1B0001C0265 /* DetailViewController.swift */,
+			);
+			name = detail;
+			sourceTree = "<group>";
+		};
+		94DE205C1E7B9A59005C5C2D = {
+			isa = PBXGroup;
+			children = (
+				94DE20671E7B9A59005C5C2D /* Rocket */,
+				94DE20661E7B9A59005C5C2D /* Products */,
+				2CA47DE63CBE9EBBB0FABE73 /* Pods */,
+				B7CF10F085F5A89E0EFB1DE5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		94DE20661E7B9A59005C5C2D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94DE20651E7B9A59005C5C2D /* Rocket.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94DE20671E7B9A59005C5C2D /* Rocket */ = {
+			isa = PBXGroup;
+			children = (
+				94DE207F1E7B9E0D005C5C2D /* Others */,
+				94DE20AD1E7BA351005C5C2D /* Model */,
+				94DE20801E7B9EDA005C5C2D /* Controller */,
+				94DE20811E7B9EF9005C5C2D /* StoryBoard */,
+			);
+			path = Rocket;
+			sourceTree = "<group>";
+		};
+		94DE207F1E7B9E0D005C5C2D /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				94DE20C91E7C06D5005C5C2D /* Rocket.entitlements */,
+				94DE20681E7B9A59005C5C2D /* AppDelegate.swift */,
+				94DE20721E7B9A59005C5C2D /* Assets.xcassets */,
+				94DE20741E7B9A59005C5C2D /* LaunchScreen.storyboard */,
+				94DE20771E7B9A59005C5C2D /* Info.plist */,
+				94DE206F1E7B9A59005C5C2D /* Rocket.xcdatamodeld */,
+				94DE207D1E7B9DFE005C5C2D /* GoogleService-Info.plist */,
+				942D21E51E7EC8B0001C0265 /* Swift+Gif.swift */,
+				942D21E71E7EC91B001C0265 /* counting.gif */,
+				94DE20841E7BA20D005C5C2D /* IQKeyboardManagerSwift */,
+			);
+			name = Others;
+			sourceTree = "<group>";
+		};
+		94DE20801E7B9EDA005C5C2D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				942D21E01E7EA190001C0265 /* detail */,
+				94DE20C61E7BF9A6005C5C2D /* Profile */,
+				94DE20B91E7BD75B005C5C2D /* history */,
+				94DE20B81E7BD741005C5C2D /* challengeFriend */,
+				94DE20B71E7BD72C005C5C2D /* inviteFriend */,
+				94DE20B41E7BD531005C5C2D /* Todays History */,
+				94DE20B31E7BAADA005C5C2D /* LogIn */,
+				94DE20B21E7BAACF005C5C2D /* SignUp */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		94DE20811E7B9EF9005C5C2D /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				94DE206C1E7B9A59005C5C2D /* Main.storyboard */,
+			);
+			name = StoryBoard;
+			sourceTree = "<group>";
+		};
+		94DE20841E7BA20D005C5C2D /* IQKeyboardManagerSwift */ = {
+			isa = PBXGroup;
+			children = (
+				94DE20851E7BA20D005C5C2D /* Categories */,
+				94DE208C1E7BA20D005C5C2D /* Constants */,
+				94DE208F1E7BA20D005C5C2D /* IQKeyboardManager.swift */,
+				94DE20901E7BA20D005C5C2D /* IQKeyboardManagerSwift.h */,
+				94DE20911E7BA20D005C5C2D /* IQKeyboardReturnKeyHandler.swift */,
+				94DE20921E7BA20D005C5C2D /* IQTextView */,
+				94DE20941E7BA20D005C5C2D /* IQToolbar */,
+				94DE209A1E7BA20D005C5C2D /* Resources */,
+			);
+			path = IQKeyboardManagerSwift;
+			sourceTree = "<group>";
+		};
+		94DE20851E7BA20D005C5C2D /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				94DE20861E7BA20D005C5C2D /* IQNSArray+Sort.swift */,
+				94DE20871E7BA20D005C5C2D /* IQUIScrollView+Additions.swift */,
+				94DE20881E7BA20D005C5C2D /* IQUITextFieldView+Additions.swift */,
+				94DE20891E7BA20D005C5C2D /* IQUIView+Hierarchy.swift */,
+				94DE208A1E7BA20D005C5C2D /* IQUIViewController+Additions.swift */,
+				94DE208B1E7BA20D005C5C2D /* IQUIWindow+Hierarchy.swift */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		94DE208C1E7BA20D005C5C2D /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				94DE208D1E7BA20D005C5C2D /* IQKeyboardManagerConstants.swift */,
+				94DE208E1E7BA20D005C5C2D /* IQKeyboardManagerConstantsInternal.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		94DE20921E7BA20D005C5C2D /* IQTextView */ = {
+			isa = PBXGroup;
+			children = (
+				94DE20931E7BA20D005C5C2D /* IQTextView.swift */,
+			);
+			path = IQTextView;
+			sourceTree = "<group>";
+		};
+		94DE20941E7BA20D005C5C2D /* IQToolbar */ = {
+			isa = PBXGroup;
+			children = (
+				94DE20951E7BA20D005C5C2D /* IQBarButtonItem.swift */,
+				94DE20961E7BA20D005C5C2D /* IQPreviousNextView.swift */,
+				94DE20971E7BA20D005C5C2D /* IQTitleBarButtonItem.swift */,
+				94DE20981E7BA20D005C5C2D /* IQToolbar.swift */,
+				94DE20991E7BA20D005C5C2D /* IQUIView+IQKeyboardToolbar.swift */,
+			);
+			path = IQToolbar;
+			sourceTree = "<group>";
+		};
+		94DE209A1E7BA20D005C5C2D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				94DE209B1E7BA20D005C5C2D /* IQKeyboardManager.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		94DE20AD1E7BA351005C5C2D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				94DE20AE1E7BA392005C5C2D /* UserDetail.swift */,
+				94DE20CC1E7C19C9005C5C2D /* HealthData.swift */,
+				942D21E31E7EA227001C0265 /* HealthManager.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		94DE20B21E7BAACF005C5C2D /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				94DE20821E7BA061005C5C2D /* SignUpViewController.swift */,
+				94DE20B01E7BA979005C5C2D /* SignUpViewControllerExtension.swift */,
+			);
+			name = SignUp;
+			sourceTree = "<group>";
+		};
+		94DE20B31E7BAADA005C5C2D /* LogIn */ = {
+			isa = PBXGroup;
+			children = (
+				94DE206A1E7B9A59005C5C2D /* LogInViewController.swift */,
+			);
+			name = LogIn;
+			sourceTree = "<group>";
+		};
+		94DE20B41E7BD531005C5C2D /* Todays History */ = {
+			isa = PBXGroup;
+			children = (
+				94DE20B51E7BD579005C5C2D /* TodayHistoryViewController.swift */,
+			);
+			name = "Todays History";
+			sourceTree = "<group>";
+		};
+		94DE20B71E7BD72C005C5C2D /* inviteFriend */ = {
+			isa = PBXGroup;
+			children = (
+				94DE20C21E7BDD8F005C5C2D /* InviteFriendViewController.swift */,
+				94DE20D01E7D5B94005C5C2D /* InviteFriendViewControllerExtension.swift */,
+				94DE20D61E7D6306005C5C2D /* InviteFriendTableViewCell.swift */,
+				94DE20D71E7D6306005C5C2D /* InviteFriendTableViewCell.xib */,
+			);
+			name = inviteFriend;
+			sourceTree = "<group>";
+		};
+		94DE20B81E7BD741005C5C2D /* challengeFriend */ = {
+			isa = PBXGroup;
+			children = (
+				94DE20BE1E7BDD7B005C5C2D /* ChallengeFriendViewController.swift */,
+				942D21DE1E7E6246001C0265 /* ChallengeFriendViewControllerExtension.swift */,
+				942D21D81E7E5F8C001C0265 /* ChallengeFriendCollectionViewCell.swift */,
+				942D21D91E7E5F8C001C0265 /* ChallengeFriendCollectionViewCell.xib */,
+			);
+			name = challengeFriend;
+			sourceTree = "<group>";
+		};
+		94DE20B91E7BD75B005C5C2D /* history */ = {
+			isa = PBXGroup;
+			children = (
+				94DE20BA1E7BDD63005C5C2D /* HistoryViewController.swift */,
+				94DE20BB1E7BDD63005C5C2D /* HistoryViewController.xib */,
+			);
+			name = history;
+			sourceTree = "<group>";
+		};
+		94DE20C61E7BF9A6005C5C2D /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				94DE20C71E7BF9BA005C5C2D /* ProfileViewController.swift */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
+		B7CF10F085F5A89E0EFB1DE5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				94DE20CA1E7C06D5005C5C2D /* HealthKit.framework */,
+				55F09F71F71704E6CE80AA0B /* Pods_Rocket.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		94DE20641E7B9A59005C5C2D /* Rocket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94DE207A1E7B9A59005C5C2D /* Build configuration list for PBXNativeTarget "Rocket" */;
+			buildPhases = (
+				9D330BEA5AD53A485AA95525 /* [CP] Check Pods Manifest.lock */,
+				94DE20611E7B9A59005C5C2D /* Sources */,
+				94DE20621E7B9A59005C5C2D /* Frameworks */,
+				94DE20631E7B9A59005C5C2D /* Resources */,
+				7B131AFE3CADA9B782BDB203 /* [CP] Embed Pods Frameworks */,
+				BF40D8D6607EF9ADFBD8E509 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Rocket;
+			productName = Rocket;
+			productReference = 94DE20651E7B9A59005C5C2D /* Rocket.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94DE205D1E7B9A59005C5C2D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Kok Yong";
+				TargetAttributes = {
+					94DE20641E7B9A59005C5C2D = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = G6BQ2J3Q99;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 94DE20601E7B9A59005C5C2D /* Build configuration list for PBXProject "Rocket" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 94DE205C1E7B9A59005C5C2D;
+			productRefGroup = 94DE20661E7B9A59005C5C2D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94DE20641E7B9A59005C5C2D /* Rocket */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		94DE20631E7B9A59005C5C2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				942D21DB1E7E5F8C001C0265 /* ChallengeFriendCollectionViewCell.xib in Resources */,
+				942D21E81E7EC91B001C0265 /* counting.gif in Resources */,
+				94DE20D91E7D6306005C5C2D /* InviteFriendTableViewCell.xib in Resources */,
+				94DE20AC1E7BA20D005C5C2D /* IQKeyboardManager.bundle in Resources */,
+				94DE20761E7B9A59005C5C2D /* LaunchScreen.storyboard in Resources */,
+				94DE207E1E7B9DFE005C5C2D /* GoogleService-Info.plist in Resources */,
+				94DE20731E7B9A59005C5C2D /* Assets.xcassets in Resources */,
+				94DE206E1E7B9A59005C5C2D /* Main.storyboard in Resources */,
+				94DE20BD1E7BDD63005C5C2D /* HistoryViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7B131AFE3CADA9B782BDB203 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Rocket/Pods-Rocket-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D330BEA5AD53A485AA95525 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BF40D8D6607EF9ADFBD8E509 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Rocket/Pods-Rocket-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94DE20611E7B9A59005C5C2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				942D21E21E7EA1B0001C0265 /* DetailViewController.swift in Sources */,
+				94DE20B11E7BA979005C5C2D /* SignUpViewControllerExtension.swift in Sources */,
+				94DE209F1E7BA20D005C5C2D /* IQUIView+Hierarchy.swift in Sources */,
+				94DE20D81E7D6306005C5C2D /* InviteFriendTableViewCell.swift in Sources */,
+				942D21E61E7EC8B0001C0265 /* Swift+Gif.swift in Sources */,
+				94DE20AF1E7BA392005C5C2D /* UserDetail.swift in Sources */,
+				94DE20A21E7BA20D005C5C2D /* IQKeyboardManagerConstants.swift in Sources */,
+				94DE20AA1E7BA20D005C5C2D /* IQToolbar.swift in Sources */,
+				94DE20A51E7BA20D005C5C2D /* IQKeyboardReturnKeyHandler.swift in Sources */,
+				94DE20C81E7BF9BA005C5C2D /* ProfileViewController.swift in Sources */,
+				94DE206B1E7B9A59005C5C2D /* LogInViewController.swift in Sources */,
+				94DE20C01E7BDD7B005C5C2D /* ChallengeFriendViewController.swift in Sources */,
+				94DE209C1E7BA20D005C5C2D /* IQNSArray+Sort.swift in Sources */,
+				94DE20A61E7BA20D005C5C2D /* IQTextView.swift in Sources */,
+				94DE20A41E7BA20D005C5C2D /* IQKeyboardManager.swift in Sources */,
+				94DE20A01E7BA20D005C5C2D /* IQUIViewController+Additions.swift in Sources */,
+				94DE20711E7B9A59005C5C2D /* Rocket.xcdatamodeld in Sources */,
+				94DE20A91E7BA20D005C5C2D /* IQTitleBarButtonItem.swift in Sources */,
+				94DE20CD1E7C19C9005C5C2D /* HealthData.swift in Sources */,
+				94DE20A11E7BA20D005C5C2D /* IQUIWindow+Hierarchy.swift in Sources */,
+				94DE20A71E7BA20D005C5C2D /* IQBarButtonItem.swift in Sources */,
+				94DE20D11E7D5B94005C5C2D /* InviteFriendViewControllerExtension.swift in Sources */,
+				94DE20BC1E7BDD63005C5C2D /* HistoryViewController.swift in Sources */,
+				94DE20831E7BA061005C5C2D /* SignUpViewController.swift in Sources */,
+				94DE20B61E7BD579005C5C2D /* TodayHistoryViewController.swift in Sources */,
+				942D21DA1E7E5F8C001C0265 /* ChallengeFriendCollectionViewCell.swift in Sources */,
+				94DE20691E7B9A59005C5C2D /* AppDelegate.swift in Sources */,
+				94DE209E1E7BA20D005C5C2D /* IQUITextFieldView+Additions.swift in Sources */,
+				94DE209D1E7BA20D005C5C2D /* IQUIScrollView+Additions.swift in Sources */,
+				94DE20A81E7BA20D005C5C2D /* IQPreviousNextView.swift in Sources */,
+				94DE20AB1E7BA20D005C5C2D /* IQUIView+IQKeyboardToolbar.swift in Sources */,
+				94DE20C41E7BDD8F005C5C2D /* InviteFriendViewController.swift in Sources */,
+				942D21E41E7EA227001C0265 /* HealthManager.swift in Sources */,
+				942D21DF1E7E6246001C0265 /* ChallengeFriendViewControllerExtension.swift in Sources */,
+				94DE20A31E7BA20D005C5C2D /* IQKeyboardManagerConstantsInternal.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		94DE206C1E7B9A59005C5C2D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94DE206D1E7B9A59005C5C2D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		94DE20741E7B9A59005C5C2D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94DE20751E7B9A59005C5C2D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		94DE20781E7B9A59005C5C2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		94DE20791E7B9A59005C5C2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		94DE207B1E7B9A59005C5C2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAF66A8D9E2191296D8B2B7F /* Pods-Rocket.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Rocket/Rocket.entitlements;
+				DEVELOPMENT_TEAM = G6BQ2J3Q99;
+				INFOPLIST_FILE = Rocket/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.KY.Rocket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		94DE207C1E7B9A59005C5C2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8902A9F092C4A41BD1DABBF /* Pods-Rocket.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Rocket/Rocket.entitlements;
+				DEVELOPMENT_TEAM = G6BQ2J3Q99;
+				INFOPLIST_FILE = Rocket/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.KY.Rocket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94DE20601E7B9A59005C5C2D /* Build configuration list for PBXProject "Rocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94DE20781E7B9A59005C5C2D /* Debug */,
+				94DE20791E7B9A59005C5C2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94DE207A1E7B9A59005C5C2D /* Build configuration list for PBXNativeTarget "Rocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94DE207B1E7B9A59005C5C2D /* Debug */,
+				94DE207C1E7B9A59005C5C2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		94DE206F1E7B9A59005C5C2D /* Rocket.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				94DE20701E7B9A59005C5C2D /* Rocket.xcdatamodel */,
+			);
+			currentVersion = 94DE20701E7B9A59005C5C2D /* Rocket.xcdatamodel */;
+			path = Rocket.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 94DE205D1E7B9A59005C5C2D /* Project object */;
+}
